@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>		
+		var years = +prompt('Сколько вам лет?', 100);
+		if (years >= 11 && years <= 19) {
+		alert('Вам ' + years + ' лет!');
+		} else if (years % 10 == 1) {		
+		alert('Вам ' + years + ' год!');
+		} else if (years % 10 >= 2 && years % 10 <= 4) {
+		alert('Вам ' + years + ' года!');
+		} else {
+		alert('Вам ' + years + ' лет!');
+		} 
+	</script>
+</body>
+</html>
